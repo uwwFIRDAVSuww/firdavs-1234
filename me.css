@@ -10,6 +10,7 @@
 body {
     background: #0a0a23;
     padding: 40px;
+    background: url(https://img.freepik.com/free-photo/3d-render-abstract-fictional-space-scene_1048-5959.jpg?semt=ais_user_personalization&w=740&q=80);
 }
 
 .container {
@@ -300,3 +301,25 @@ btn a:active {
     z-index: 1000;
     text-decoration: none;
     }
+
+a button {
+    background-color: #00aaff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+a button:hover {
+background-color: #00aaff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    right: 10px;
+    box-shadow: 0 0 15px #00aaff;
+}
